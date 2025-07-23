@@ -1,0 +1,43 @@
+# Root-level ignore
+node_modules/
+*.log
+.env
+.DS_Store
+*.iml
+.idea/
+.vscode/
+target/
+*.class
+
+# Ignore OS-specific or IDE-specific files
+Thumbs.db
+*.swp
+
+# React specific
+frontend/node_modules/
+frontend/build/
+frontend/.env
+frontend/.DS_Store
+
+# Npm specific
+authentication/node_modules/
+authentication/.env
+authentication/.DS_Store
+
+# Spring Boot specific
+photocloud/target/
+photocloud/.classpath
+photocloud/.project
+photocloud/.settings/
+photocloud/.env
+
+# Logs
+*.log
+logs/
+*.out
+
+# JetBrains files globally
+*.iws
+*.ipr
+*.idea/
+
