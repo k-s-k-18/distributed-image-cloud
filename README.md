@@ -12,7 +12,7 @@ The web application is composed of three services, each built using different te
 – Handles user authentication using **JWT**.  
 – Developed using **Express** and **Node.js**.
 
-### Cloud Service  
+### Image Storage Service  
 – Verifies JWT tokens passed from the frontend and serves images based on the user ID extracted from the token.  
 – Also handles image compression when supplying multiple images on the dashboard to reduce response time.  
 – Developed using **Spring Boot**.
